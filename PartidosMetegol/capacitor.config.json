@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "PartidosMetegol",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
