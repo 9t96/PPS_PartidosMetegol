@@ -230,3 +230,46 @@
     --color: white;
   }
 }
+
+@font-face{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/Oswald-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'Oswald';
+  font-style: semi-bold;
+  font-weight: 600;
+  src: url('../assets/fonts/Oswald-SemiBold.ttf');
+}
+
+@font-face{
+  font-family: 'Oswald';
+  font-style: bold;
+  font-weight: 700;
+  src: url('../assets/fonts/Oswald-Bold.ttf');
+}
+
+@font-face{
+  font-family: 'Oswald';
+  font-style: extra-bold;
+  font-weight: 900;
+  src: url('../assets/fonts/Oswald-ExtraLight.ttf');
+}
+
+
+$font-family-base: 'Oswald', sans-serif;
+body{
+  font-family: 'Oswald' !important;
+  font-weight: 400 !important; 
+}
+
+h1,h2, button, p{
+  font-family: 'Oswald' !important;
+}
+
+ * {
+  font-family: $font-family-base;
+}
